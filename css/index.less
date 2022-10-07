@@ -1,0 +1,40 @@
+.container{
+    // 头部
+    .header{
+        .header-top{
+            background-color: #eaeaea;
+            // display: flex;
+            // justify-content:center;
+            // width: 100%;
+            .header-top-container{
+                display:flex;
+                justify-content: space-between;
+                line-height:30px;
+                width: 1200px;
+                margin: 0 auto;
+                .header-top-left{
+                    display: flex;
+                    flex-direction: row;
+                    p a{
+                        &:first-child{
+                            border-right: 1px solid #b3aeae;
+                        }
+                        padding: 0 5px;
+                    }
+                }
+                .header-top-right{
+    
+                    a{
+                        &:not(fist-child){
+                            border-right: 1px solid #b3aeae;
+                        }
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+        .header-bottom{
+
+        }
+    }
+}

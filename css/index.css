@@ -1,0 +1,26 @@
+.container .header .header-top {
+  background-color: #eaeaea;
+}
+.container .header .header-top .header-top-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .header .header-top .header-top-container .header-top-left {
+  display: flex;
+  flex-direction: row;
+}
+.container .header .header-top .header-top-container .header-top-left p a {
+  padding: 0 5px;
+}
+.container .header .header-top .header-top-container .header-top-left p a:first-child {
+  border-right: 1px solid #b3aeae;
+}
+.container .header .header-top .header-top-container .header-top-right a {
+  padding: 0 10px;
+}
+.container .header .header-top .header-top-container .header-top-right a:not(fist-child) {
+  border-right: 1px solid #b3aeae;
+}
