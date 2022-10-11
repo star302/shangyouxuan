@@ -16,15 +16,12 @@
   body {
       background: #fff;
       color: #555;
-      font-size: 14px;
+      font-size: 12px;
   }
   td, th, caption {
-      font-size: 14px;
+      font-size: 12px;
   }
-  h1, h2, h3, h4, h5, h6 {
-      font-weight: normal;
-      font-size: 100%;
-  }
+
   address, caption, cite, code, dfn, em, strong, th, var {
       font-style: normal;
       font-weight: normal;
@@ -34,8 +31,12 @@
       text-decoration: none;
   }
   a:hover {
-      text-decoration: underline;
+      /* text-decoration: underline; */
   }
+  input,select,option,textarea {
+    outline: none;
+  }
+
   img {
       border: none;
       vertical-align: middle;
@@ -56,9 +57,8 @@
       display: inline-block;
       height: 0;
       clear: both;
-      visibility: hidden;
   }
   .clearfix {
-      *zoom: 1;
+      overflow: hidden;
   }
   

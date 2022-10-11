@@ -1,3 +1,12 @@
+.container {
+  font-size: 12px;
+}
+.container i {
+  font-style: normal;
+}
+.container a:hover {
+  color: #e1251b;
+}
 .container .header .header-top {
   background-color: #eaeaea;
 }
@@ -19,8 +28,570 @@
   border-right: 1px solid #b3aeae;
 }
 .container .header .header-top .header-top-container .header-top-right a {
-  padding: 0 10px;
-}
-.container .header .header-top .header-top-container .header-top-right a:not(fist-child) {
   border-right: 1px solid #b3aeae;
+  padding: 0 8px;
+}
+.container .header .header-top .header-top-container .header-top-right a:last-child {
+  border: none;
+  padding-right: 0;
+}
+.container .header .header-bottom .header-bottom-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .header .header-bottom .header-bottom-container .logo {
+  float: left;
+}
+.container .header .header-bottom .header-bottom-container .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.container .header .header-bottom .header-bottom-container .search {
+  float: right;
+  margin-top: 35px;
+}
+.container .header .header-bottom .header-bottom-container .search input {
+  font-size: 12px;
+}
+.container .header .header-bottom .header-bottom-container .search input:first-child {
+  box-sizing: border-box;
+  float: left;
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 3px solid #ea4a36;
+}
+.container .header .header-bottom .header-bottom-container .search input:last-child {
+  float: left;
+  width: 68px;
+  height: 32px;
+  background-color: #ea4a36;
+  color: #fff;
+  border: none;
+}
+.container .header .header-bottom .header-bottom-container .search input::-webkit-input-placeholder {
+  color: #ea4a36;
+}
+.container .navContainer {
+  border-bottom: 2px solid #e1251b;
+}
+.container .navContainer .detail {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 1200px;
+}
+.container .navContainer .detail a {
+  margin: 0 22px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+}
+.container .navContainer .detail a:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  width: 210px;
+  color: #fff;
+  background-color: #e1251b;
+}
+.container .navContainer .detail a:not(.container .navContainer .detail a:first-child):hover {
+  color: #e1251b;
+}
+.container > .content {
+  width: 1200px;
+  margin: 15px auto 0;
+}
+.container > .content .contentContainer .nav {
+  padding: 9px 15px 9px 0px;
+  font-size: 0;
+}
+.container > .content .contentContainer .nav a {
+  font-size: 12px;
+}
+.container > .content .contentContainer .nav a:last-child:hover {
+  color: inherit;
+}
+.container > .content .contentContainer .nav i {
+  padding: 0 5px;
+  font-size: 12px;
+}
+.container > .content .contentContainer .center {
+  margin: 5px 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container > .content .contentContainer .center .left {
+  width: 400px;
+}
+.container > .content .contentContainer .center .left .leftTop {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.container > .content .contentContainer .center .left .leftTop .smallPic {
+  border: 1px solid #DFDFDF;
+  position: relative;
+  overflow: hidden;
+}
+.container > .content .contentContainer .center .left .leftTop .smallPic .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+}
+.container > .content .contentContainer .center .left .leftTop .bigPic {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 420px;
+  top: 0px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.container > .content .contentContainer .center .left .leftTop .bigPic img {
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+.container > .content .contentContainer .center .left .leftBottom {
+  width: 400px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.container > .content .contentContainer .center .left .leftBottom a {
+  display: inline-block;
+  line-height: 54px;
+  width: 10px;
+  height: 54px;
+  border: 1px solid #CCC;
+  background-color: #EBEBEB;
+}
+.container > .content .contentContainer .center .left .leftBottom a:first-child {
+  margin-right: 4px;
+}
+.container > .content .contentContainer .center .left .leftBottom div {
+  overflow: hidden;
+  position: relative;
+  width: 372px;
+  height: 56px;
+}
+.container > .content .contentContainer .center .left .leftBottom div .picList {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  transition: 0.5s;
+  left: 0;
+}
+.container > .content .contentContainer .center .left .leftBottom div .picList .active,
+.container > .content .contentContainer .center .left .leftBottom div .picList li:hover {
+  border: 1px solid #ea4a36;
+}
+.container > .content .contentContainer .center .left .leftBottom div .picList li {
+  padding: 2px;
+  margin-right: 20px;
+  border: 1px solid #CCC;
+}
+.container > .content .contentContainer .center .left .leftBottom div .picList li img {
+  width: 50px;
+  height: 50px;
+}
+.container > .content .contentContainer .center .right {
+  width: 700px;
+}
+.container > .content .contentContainer .center .right .rightTop h3 {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 21px;
+}
+.container > .content .contentContainer .center .right .rightTop > p {
+  margin-top: 15px;
+  color: #e12228;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer {
+  margin-top: 10px;
+  line-height: 28px;
+  background-color: #fee9ec;
+  padding: 7px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop {
+  display: flex;
+  flex-direction: row;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop > span {
+  margin-right: 10px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop .price {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop .price > div {
+  display: flex;
+  flex-direction: row;
+  color: #cc1122;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop .price > div > p {
+  font-size: 24px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceTop .price > div span:first-child {
+  font-size: 16px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceBottom {
+  display: flex;
+  flex-direction: row;
+  width: 520px;
+  line-height: 28px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceBottom > span {
+  margin-right: 10px;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceBottom > p > span {
+  color: #999;
+}
+.container > .content .contentContainer .center .right .rightTop .priceContainer .priceBottom > p > span:first-child {
+  padding: 3px;
+  background-color: #c81623;
+  color: #fff;
+}
+.container > .content .contentContainer .center .right .rightTop .support {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.container > .content .contentContainer .center .right .rightTop .support > div {
+  margin-top: 10px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: row;
+}
+.container > .content .contentContainer .center .right .rightTop .support > div span {
+  margin-right: 15px;
+}
+.container > .content .contentContainer .center .right .rightTop .support > div p {
+  color: #999;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseResult {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseResult div {
+  line-height: 30px;
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  margin-right: 20px;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseResult div a {
+  color: red;
+  margin-left: 20px;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseResult div a:hover {
+  cursor: pointer;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer > dl {
+  margin: 13px 0;
+  display: flex;
+  flex-direction: row;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer > dl > dt {
+  margin-right: 15px;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer > dl > dd {
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border: 1px solid;
+  border-color: #eee #bbb #bbb #eee;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer > dl > dd:hover {
+  cursor: pointer;
+}
+.container > .content .contentContainer .center .right .rightBottom .chooseContainer > dl .active {
+  color: red;
+  border-color: red;
+}
+.container > .content .contentContainer .center .right .add input {
+  width: 38px;
+  height: 37px;
+  color: #555;
+  border: 1px solid #ddd;
+  margin-right: 15px;
+}
+.container > .content .contentContainer .center .right .add button {
+  padding: 0 25px;
+  height: 36px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #e1251b;
+}
+.container > .content .contentContainer .center .right .add button:hover {
+  cursor: pointer;
+}
+.container .detailContainer {
+  width: 1200px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container .detailContainer .left {
+  width: 210px;
+  border: 1px solid #ccc;
+}
+.container .detailContainer .left .asideTop {
+  display: flex;
+  flex-direction: row;
+}
+.container .detailContainer .left .asideTop h4 {
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 40px;
+  width: 105px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+.container .detailContainer .left .asideTop h4:hover {
+  cursor: pointer;
+}
+.container .detailContainer .left .asideTop .active {
+  border-top: 3px solid #e1251b;
+}
+.container .detailContainer .left .asideBottom {
+  padding: 10px;
+}
+.container .detailContainer .left .asideBottom div {
+  display: none;
+}
+.container .detailContainer .left .asideBottom div.active {
+  display: block;
+}
+.container .detailContainer .left .asideBottom div.active .list1 li {
+  float: left;
+  width: 50%;
+  border-bottom: 1px solid #ededed;
+  line-height: 28px;
+}
+.container .detailContainer .left .asideBottom div.active .list2 li {
+  margin: 5px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+.container .detailContainer .left .asideBottom div.active .list2 li img {
+  width: 152px;
+}
+.container .detailContainer .left .asideBottom div.active .list2 li p {
+  font-size: 16px;
+  color: #c81623;
+}
+.container .detailContainer .left .asideBottom div.active .list2 li a {
+  width: 100px;
+  padding: 2px 14px;
+  margin: 5px 0;
+  color: #8c8c8c;
+  border: 1px solid #8c8c8c;
+  line-height: 18px;
+}
+.container .detailContainer .right {
+  width: 980px;
+  margin-bottom: 15px;
+}
+.container .detailContainer .right .choose {
+  border: 1px solid #ddd;
+}
+.container .detailContainer .right .choose h4 {
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  background-color: #f1f1f1;
+  padding: 5px 0 5px 15px;
+}
+.container .detailContainer .right .choose .listContainer {
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+}
+.container .detailContainer .right .choose .listContainer .listleft {
+  position: relative;
+  width: 127px;
+  height: 165px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.container .detailContainer .right .choose .listContainer .listleft img {
+  width: 87px;
+}
+.container .detailContainer .right .choose .listContainer .listleft p {
+  font-size: 16px;
+  color: #c81623;
+}
+.container .detailContainer .right .choose .listContainer .listleft i {
+  position: absolute;
+  font-size: 16px;
+  top: 48px;
+  right: -15px;
+}
+.container .detailContainer .right .choose .listContainer .listmiddle {
+  display: flex;
+  flex-direction: row;
+}
+.container .detailContainer .right .choose .listContainer .listmiddle li {
+  width: 127px;
+  margin: 0 20px;
+  text-align: center;
+}
+.container .detailContainer .right .choose .listContainer .listmiddle li img {
+  width: 120px;
+  height: 130px;
+}
+.container .detailContainer .right .choose .listContainer .listmiddle li div {
+  display: flex;
+  justify-content: center;
+}
+.container .detailContainer .right .choose .listContainer .listright {
+  border-left: 1px solid #ddd;
+  width: 153px;
+  height: 165px;
+  padding-left: 20px;
+}
+.container .detailContainer .right .choose .listContainer .listright p:first-of-type {
+  margin: 10px 0;
+}
+.container .detailContainer .right .choose .listContainer .listright p:last-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.container .detailContainer .right .choose .listContainer .listright span {
+  font-size: 16px;
+  color: #B1191A;
+  margin-bottom: 10px;
+}
+.container .detailContainer .right .choose .listContainer .listright div button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e1251b;
+}
+.container .detailContainer .right .rightDetail {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+.container .detailContainer .right .rightDetail .detailNav {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row;
+}
+.container .detailContainer .right .rightDetail .detailNav li {
+  line-height: 40px;
+  padding: 0 11px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.container .detailContainer .right .rightDetail .detailNav li.active {
+  background-color: #e1251b;
+}
+.container .detailContainer .right .rightDetail .detailNav li.active a {
+  color: #fff;
+}
+.container .detailContainer .right .rightDetail div {
+  display: none;
+  padding: 10px 20px;
+}
+.container .detailContainer .right .rightDetail div.active {
+  display: flex;
+  flex-direction: column;
+}
+.container .detailContainer .right .rightDetail div ul li {
+  line-height: 25px;
+}
+.container .rightAside {
+  width: 300px;
+  height: 100%;
+  transition: 0.5s;
+  position: fixed;
+  background-color: #7a6e6e;
+  top: 0;
+  right: -294px;
+}
+.container .rightAside.active {
+  right: 0;
+}
+.container .rightAside .controll {
+  position: absolute;
+  border: none;
+  left: -29px;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  background-color: #7a6e6e;
+  background-image: url('../images/list.png');
+  background-size: contain;
+}
+.container .rightAside .controll:hover {
+  cursor: pointer;
+}
+.container .rightAside .controll.active {
+  background-image: url('../images/cross.png');
+}
+.container .rightAside .content {
+  width: 294px;
+  background-color: bisque;
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.container .rightAside .navList {
+  position: absolute;
+  left: -29px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container .rightAside .navList li {
+  position: relative;
+}
+.container .rightAside .navList li p {
+  width: 35px;
+  height: 35px;
+  background-color: #7a6e6e;
+  background-image: url('../images/toolbars.png');
+  background-position: -87px -174px;
+  transition: 0.5s;
+}
+.container .rightAside .navList li i {
+  position: absolute;
+  width: 62px;
+  line-height: 35px;
+  text-align: center;
+  left: 35px;
+  top: 0;
+  background-color: bisque;
+  transition: 0.5s;
+  z-index: -10;
+}
+.container .rightAside .navList li:hover i {
+  left: -62px;
+}
+.container .rightAside .navList li:hover p {
+  background-color: bisque;
 }
